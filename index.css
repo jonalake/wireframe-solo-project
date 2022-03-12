@@ -18,7 +18,7 @@ header {
 }
 
 header, main {
-    padding: 10px 72px;
+    padding: 4px 96px;
 }
 
 header img {
@@ -49,6 +49,7 @@ header img, .navigation {
     text-transform: uppercase;
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+    font-size: 16px;
 }
 
 .navigation a:hover {
@@ -63,15 +64,15 @@ header img, .navigation {
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     padding: 10px 30px;
-    border: 2px solid hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 100%);
 }
 
 .actions a + a{
-    margin-left: 36px;
+    margin-left: 8px;
 }
 
 .actions a:hover {
-    border: 2px solid hsl(37, 71%, 36%);
+    border: 1px solid hsl(37, 71%, 36%);
     background-color: hsl(37, 71%, 36%);
     transition: all .5s ease;
 }
@@ -121,33 +122,35 @@ img {
 }
 
 main {
-    padding-top: 72px;
-    padding-bottom: 48px;
+    padding-top: 96px;
+    padding-bottom: 56px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 36px 72px;
+    gap: 36px 104px;
 }
 
 h1 {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 600;
     color: black;
-    margin-bottom: 1em;
+    margin-bottom: 48px;
+    line-height: 1.5em;
 }
 
 h2 {
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 800;
     color: black;
-    margin-bottom: 1em;
+    margin-bottom: 28px;
 }
 
 main p {
-    padding-bottom: 36px;
+    font-size: 20px;
+    padding-bottom: 56px;
 }
 
 .benefit {
