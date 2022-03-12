@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     display: grid;
@@ -10,13 +14,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 36px 64px;
+    padding: 10px 64px;
     background-color: hsl(0, 0%, 17%);
+}
+
+header img {
+    height: 65px;
+}
+
+header img:hover {
+    opacity: 60%;
+    transition: all .5s ease;
+}
+
+header img, .navigation {
+    display: inline-flex;
+    vertical-align: middle;
 }
 
 .navigation > ul {
     display: flex;
     flex-flow: row nowrap;
+    margin-left: 36px;
 }
 
 .navigation li + li {
@@ -53,3 +72,48 @@ header {
     background-color: hsl(37, 71%, 36%);
     transition: all .5s ease;
 }
+
+img {
+    max-width: 100%;
+}
+
+.hero {
+    position: relative;
+}
+
+.call-to-action {
+    text-align: center;
+    width: 100%;
+}
+
+.hero .call-to-action {
+    position: absolute;
+    bottom: 25%;
+}
+
+.call-to-action p {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 1px black;
+}
+
+.call-to-action a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(37, 71%, 36%);
+    padding: 10px 30px;
+    border: 2px solid hsl(37, 71%, 36%);
+}
+
+.call-to-action a:hover {
+    background-color: hsl(43, 86%, 28%);
+    border: 2px solid hsl(43, 86%, 28%);
+    transition: all .5s ease;
+}
+
