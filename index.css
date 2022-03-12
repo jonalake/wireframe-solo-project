@@ -77,12 +77,12 @@ header img, .navigation {
     transition: all .5s ease;
 }
 
-img {
-    max-width: 100%;
-}
-
 .hero {
     position: relative;
+}
+
+.hero img {
+    max-width: 100%;
 }
 
 .call-to-action {
@@ -95,13 +95,13 @@ img {
     bottom: 25%;
 }
 
-.call-to-action p {
+h1 {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     margin-bottom: 1em;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 1px 1px 20px black;
 }
 
 .call-to-action a {
@@ -129,7 +129,7 @@ main {
     gap: 36px 104px;
 }
 
-h1 {
+h2 {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
     text-transform: uppercase;
@@ -140,7 +140,7 @@ h1 {
     line-height: 1.5em;
 }
 
-h2 {
+h3 {
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 800;
@@ -149,7 +149,7 @@ h2 {
 }
 
 main p {
-    font-size: 20px;
+    font-size: 17px;
     padding-bottom: 56px;
 }
 
