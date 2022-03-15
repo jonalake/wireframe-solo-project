@@ -101,7 +101,7 @@ h1 {
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     margin-bottom: 1em;
-    text-shadow: 1px 1px 20px black;
+    text-shadow: 0 0 20px black;
 }
 
 .call-to-action a {
